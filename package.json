@@ -1,7 +1,7 @@
 {
-  "name": "react-pretence-router",
-  "version": "1.0.0",
-  "description": "React-Pretence-Router",
+  "name": "pretence-router",
+  "version": "1.0.1",
+  "description": "React pretence router",
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js",
@@ -31,7 +31,7 @@
     "css-loader": "^1.0.0",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.4.1",
-    "react-pretence-router": "^1.0.0",
+    "react-pretence-router": "^1.0.1",
     "style-loader": "^0.22.1",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0",
