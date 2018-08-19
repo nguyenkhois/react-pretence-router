@@ -10,6 +10,12 @@ Tested on:
 * MacOS High Sierra (version 10.13)
 * Debian 9
 
+## Screenshot
+* Online demo
+* This router used in my other project that is a Firefox extension - [gToDos](https://addons.mozilla.org/sv-SE/firefox/addon/gtodos/)
+
+![Screenshot](./assets/screenshot.png)
+
 ## Requirement
 * React-Redux
    * combineReducers()
@@ -18,8 +24,16 @@ Tested on:
 
 ## Using
 * Add to your project by:
-   * Install from npm `npm i -D react-pretence-router`
-   * Or copy this directory `./src/react-pretence-router` to your project directory and use it by `import {...} from ./react-pretence-router/` like normal components.
+   * Install from npm by command: `npm i -D react-pretence-router`
+   * Or copy this directory `./src/react-pretence-router` to your project directory and import components that you need to your code by `import {...} from ./react-pretence-router/` like normal components.
+* Begin with file `./src/app.js` to know how you can start.
+* View file `./src/menu.js` to know how you can create a link.
+
+That's all and very simple. You can do it when you can React-Redux basic.
+
+Don't worry about... all when you have Google ! (^_~)
+
+## Clone
 * Local web server started at: `htpp://localhost:9000`
 * Commands:
     * `npm run start`: start Webpack Dev Server
