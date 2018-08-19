@@ -11,7 +11,7 @@ Tested on:
 * Debian 9
 
 ## Screenshot
-* Online demo
+* [Online demo on Codesandbox](https://codesandbox.io/s/r53y0kyvzo)
 * This router used in my other project that is a Firefox extension - [gToDos](https://addons.mozilla.org/sv-SE/firefox/addon/gtodos/)
 
 ![Screenshot](./assets/screenshot.png)
