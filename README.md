@@ -19,7 +19,9 @@ Tested on:
 ![Screenshot](./assets/screenshot.png)
 
 ## Requirement
-* React-Redux
+* React ([react](https://www.npmjs.com/package/react), [react-dom](https://www.npmjs.com/package/react-dom))
+* Redux ([redux](https://www.npmjs.com/package/redux))
+* React-Redux ([react-redux](https://www.npmjs.com/package/react-redux))
    * combineReducers()
    * `preloadedState` is an object (in file `./src/app.js`)
 * Using include property in Webpack config for Babel loader (view file `./webpack.common.js`) and do not use exclude property.
