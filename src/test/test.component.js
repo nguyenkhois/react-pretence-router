@@ -37,7 +37,7 @@ class Test extends Component {
     render() {
         return (
             <div>
-                <p>Timestamp: {this.props.datetime}</p>
+                <p>Timestamp from test component: {this.props.datetime}</p>
                 <button onClick={e => this.handleClick(e)}>Set timestamp</button>
             </div>
         )

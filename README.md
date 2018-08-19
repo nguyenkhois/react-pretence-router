@@ -29,9 +29,18 @@ Tested on:
 * Begin with file `./src/app.js` to know how you can start.
 * View file `./src/menu.js` to know how you can create a link.
 
-That's all and very simple. You can do it when you can React-Redux basic.
+|Component|Input|Type|Description
+|---|---|---|---|
+|`<Route/>`|path|string|It must be the same with `to` in `<Link/>` component|
+||component|React component||
+|`<Link/>`|to|string|It must be the same with `path` in `<Route/>` component|
+||name|string|Hyperlink display text|
+||css|string|CSS class|
+|`routerReducers as router`|-|-|Using for creating Redux store|
 
-Don't worry about... all when you have Google ! (^_~)
+That's all and it's very simple. You can do it when you can React-Redux basic.
+
+Don't worry about these things when you have Google ! (^_~)
 
 ## Clone
 * Local web server started at: `htpp://localhost:9000`
