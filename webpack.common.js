@@ -15,7 +15,10 @@ module.exports = {
         rules: [
             {
                 test: /\.(js|jsx)$/,
-                exclude: /node_modules\/(?!(react-pretence-router)\/).*/,
+                include: [
+                    path.resolve(__dirname, "src"),
+                    path.resolve(__dirname, "node_modules/react-pretence-router")
+                ],
                 use: ['babel-loader']
             }
         ]

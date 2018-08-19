@@ -22,7 +22,13 @@ Tested on:
 * React-Redux
    * combineReducers()
    * `preloadedState` is an object (in file `./src/app.js`)
-* Using `exclude: /node_modules\/(?!(react-pretence-router)\/).*/,` in Webpack config for Babel loader (in file `./webpack.common.js`)
+* Using include property in Webpack config for Babel loader (view file `./webpack.common.js`) and do not use exclude property.
+````
+include: [
+    path.resolve(__dirname, "src"),
+    path.resolve(__dirname, "node_modules/react-pretence-router")
+]
+````
 
 ## Using
 * Add to your project by:
