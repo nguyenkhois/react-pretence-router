@@ -1,7 +1,7 @@
 # React Pretence Router [![npm](https://img.shields.io/badge/npm-1.0.2-blue.svg)](https://www.npmjs.com/package/react-pretence-router)
 ![Structure](./assets/structure.png)
 
-This router is based on [React-Redux](https://redux.js.org/basics/usagewithreact) and use `state` in [Redux `store`](https://redux.js.org/basics/store) to decide which component will be rendered. It look like a router but it isn't a real router like [React-Router](https://github.com/ReactTraining/react-router).
+This pretence router is based on [React-Redux](https://redux.js.org/basics/usagewithreact) and use `state` in [Redux `store`](https://redux.js.org/basics/store) to decide which component will be rendered. It look like a router but it isn't a real router like [React-Router](https://github.com/ReactTraining/react-router).
 
 It is lightweight, very simple to use and useful for small application or web browser extension development (Google Chrome or Firefox). Simple solution for simple requirement (^_~).
 
