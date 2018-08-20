@@ -53,7 +53,7 @@ include: [
 ||component|component|Normal React component or React-Redux component|
 |`<Link/>`|to|string|It must be the same with `path` in `<Route/>` component|
 ||name|string|Hyperlink display text|
-||css|string|CSS class|
+||css|string|CSS class name|
 |`routerReducers as router`|-|-|Using for creating Redux store|
 
 That's all and it's very simple. You can do it when you can React-Redux basic.
