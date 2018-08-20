@@ -1,9 +1,9 @@
 # React Pretence Router [![npm](https://img.shields.io/badge/npm-1.0.2-blue.svg)](https://www.npmjs.com/package/react-pretence-router)
 ![Structure](./assets/structure.png)
 
-This pretence router is based on [React-Redux](https://redux.js.org/basics/usagewithreact) and use `state` in [Redux `store`](https://redux.js.org/basics/store) to decide which component will be rendered. It look like a router but it isn't a real router like [React-Router](https://github.com/ReactTraining/react-router).
+This pretence router is lightweight, simple to use and useful for small application or web browser extension development. Simple way for simple requirement (^_~).
 
-It is lightweight, very simple to use and useful for small application or web browser extension development (Google Chrome or Firefox). Simple solution for simple requirement (^_~).
+It is based on [React-Redux](https://redux.js.org/basics/usagewithreact) and use state in [Redux `store`](https://redux.js.org/basics/store) to decide which component will be rendered. It look like a router but it isn't a real router like [React-Router](https://github.com/ReactTraining/react-router).
 
 I recommend you to use [Redux DevTools](https://github.com/zalmoxisus/redux-devtools-extension) to know more about what happen and how data changed when you develop your app.
 
@@ -32,10 +32,18 @@ include: [
 ]
 ````
 
+## Build environment compatibility
+|Build environment|Compatibility|Why?|How?|
+|---|---|---|---|
+|[create-react-app](https://www.npmjs.com/package/create-react-app)|No|I'm not sure. It's may be at webpack is old version in this build environment. It can't parses router modules.|Copy to your project directory. View the second way for using is below. |
+|[My custom](https://github.com/nguyenkhois/build-environments/tree/master/react-adv)|Yes|I use the newest versions for Webpack, Webpack Dev Server, Babel and many more.|Install from npm and view my example.|
+|Your custom|May be|-|You should read again requirement for Babel loader is abow|
+
+
 ## Using
-* Add to your project by:
-   * Install from npm by command: `npm i -D react-pretence-router`
-   * Or copy this directory `./src/react-pretence-router` to your project directory and import components that you need to your code by `import {...} from ./react-pretence-router/` like normal components.
+* Addition this router to your project by one of two ways:
+   1. Install from npm by command: `npm i -D react-pretence-router`
+   2. Or copy this directory `./src/react-pretence-router` to your project directory and import components that you need to your code by `import {...} from ./react-pretence-router/` like normal components.
 * Begin with file `./src/app.js` to know how you can start.
 * View file `./src/menu.js` to know how you can create a link.
 
