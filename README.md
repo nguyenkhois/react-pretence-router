@@ -36,7 +36,7 @@ include: [
 |Build environment|Compatibility|Why?|How?|
 |---|---|---|---|
 |[create-react-app](https://www.npmjs.com/package/create-react-app)|No|I'm not sure. It's may be at webpack is old version in this build environment. It can't parses the router modules.|Copy to your project directory. View the second way for using is below. |
-|[My custom](https://github.com/nguyenkhois/build-environments/tree/master/react-adv)|Yes|I use the newest versions for Webpack, Webpack Dev Server, Babel and many more.|Install from npm and view [demo](https://github.com/nguyenkhois/react-pretence-router-demo).|
+|[My custom](https://github.com/nguyenkhois/build-environments/tree/master/react-adv)|Yes|I use the newest versions for Webpack, Webpack Dev Server, Babel and many more.|Install from npm and view [example](https://github.com/nguyenkhois/react-pretence-router-demo).|
 |Your custom|May be|-|You should read again requirement for Babel loader is abow|
 
 
