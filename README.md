@@ -50,7 +50,7 @@ include: [
 |Component|Input|Type|Description
 |---|---|---|---|
 |`<Route/>`|path|string|It must be the same with `to` in `<Link/>` component|
-||component|React component||
+||component|component|Normal React component or React-Redux component|
 |`<Link/>`|to|string|It must be the same with `path` in `<Route/>` component|
 ||name|string|Hyperlink display text|
 ||css|string|CSS class|
