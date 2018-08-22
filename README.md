@@ -19,7 +19,7 @@ Tested on:
     * Download on [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/gtodos/)
     * View source code on [GitHub](https://github.com/nguyenkhois/firefox-extension-gtodos)
 
-![Screenshot](./assets/screenshot.png)
+![Screenshot](./assets/demo.gif)
 
 ## Requirement
 * React ([react](https://www.npmjs.com/package/react), [react-dom](https://www.npmjs.com/package/react-dom))
