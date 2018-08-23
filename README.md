@@ -38,19 +38,21 @@ include: [
 ## Build environment compatibility
 |Build environment|Compatibility|Why?|How?|
 |---|---|---|---|
-|[create-react-app](https://www.npmjs.com/package/create-react-app)|No|I'm not sure. It's may be at webpack is old version in this build environment. It can't parses the router modules.|Copy to your project directory. View the second way for using is below. |
-|[My custom](https://github.com/nguyenkhois/build-environments/tree/master/react-adv)|Yes|I use the newest versions for Webpack, Webpack Dev Server, Babel and many more.|Install from npm and view [example](https://github.com/nguyenkhois/react-pretence-router-demo).|
-|Your custom|It may be|-|You should read again requirement for Babel loader is abow|
+|[create-react-app](https://www.npmjs.com/package/create-react-app)|No|I'm not sure. It's may be at Webpack is old version in this build environment. It can't parses the router modules.|Copy the router code into your project directory. View the second way for using is [below](#using). |
+|[My custom](https://github.com/nguyenkhois/build-environments/tree/master/react-adv)|Yes|I use the newest versions for Webpack, Webpack Dev Server, Babel and many more.|Install from [npm](https://www.npmjs.com/package/react-pretence-router) and view [code example](https://github.com/nguyenkhois/react-pretence-router-demo).|
+|Your custom|It may be|-|You should read again requirement for Babel loader is [abow](#requirement)|
 
 
 ## Using
-* Addition this router to your project by one of two ways:
+* Addition this router for your project by one of two ways:
    1. Install from npm by command: `npm i -D react-pretence-router`
-   2. Or copy this directory `./src/react-pretence-router` to your project directory and import components that you need to your code by `import {...} from ./react-pretence-router/` like normal components.
+   2. Or copy this directory `./src/react-pretence-router` into your project directory and import components that you need into your code by `import {...} from ./react-pretence-router/` that like normal components.
+      * `import { Route, routerReducers as router } from ./react-pretence-router/`
+      * `import { Link } from ./react-pretence-router/`
 * Begin with file `./src/app.js` to know how you can start.
 * View file `./src/menu.js` to know how you can create a link.
 
-|Component|Input|Type|Description
+|Component|Input (Props)|Type|Description
 |---|---|---|---|
 |`<Route/>`|path|string|It must be the same with `to` in `<Link/>` component|
 ||component|component|Normal React component or React-Redux component|
