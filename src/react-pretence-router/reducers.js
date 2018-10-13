@@ -1,4 +1,4 @@
-export const routerReducers = (state = {...state, activatedPath: '/'}, action) => {
+export const routerReducers = (state = {activatedPath: '/'}, action) => {
     switch (action.type) {
         case 'SET_ACTIVATED_PATH':
             return ({ ...state,
