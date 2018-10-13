@@ -1,4 +1,4 @@
-# React Pretence Router [![npm](https://img.shields.io/badge/npm-1.0.3-blue.svg)](https://www.npmjs.com/package/react-pretence-router)
+# React Pretence Router [![npm](https://img.shields.io/badge/npm-1.0.4-blue.svg)](https://www.npmjs.com/package/react-pretence-router)
 ![Structure](./assets/structure.png)
 
 This pretence router is lightweight, simple to use and useful for small application or web browser extension development. Simple way for simple requirement (^_~).
