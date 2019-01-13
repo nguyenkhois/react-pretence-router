@@ -3,12 +3,12 @@ import { createStore, combineReducers } from 'redux';
 import { Provider } from 'react-redux';
 
 // Using for router - do not change anything
-import { Route, routerReducers as router } from 'react-pretence-router';
+import { Route, routerReducers } from 'react-pretence-router';
 
-// Importing your reducers
+// Reducer importing
 import { testReducer, TestX } from './test/test.component';
 
-// Importing your components
+// Component importing
 import { Menu } from './menu';
 import { Home } from './components/home';
 import { About } from './components/about';
@@ -19,7 +19,7 @@ const preloadedState = {};
 
 // Step 2 - Combine your reducers with router reducers
 const rootReducer = combineReducers({
-    router, // Using for router - must have and do not change its name
+    router: routerReducers, // Using for router - must have and do not change its name "router"
     testReducer, // Your reducers here
 });
 
